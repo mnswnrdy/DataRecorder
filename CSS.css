@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: rgb(155, 155, 155);
+    }
+
+#fill-details{
+    width:65vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.demo-bg {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:65vw;
+    height: 100vh;
+    filter: blur(3px);
+  }
+
+h1{
+    position: relative;
+    top:5vh;
+    left:1vh;
+    color: rgba(255, 255, 255, 0.89);
+    font-weight: lighter;
+    font-size: 2.5rem;
+    font-family: "Gill Sans", sans-serif;
+    text-decoration: underline 1px ;
+}
+
+#fill-form{
+    position: relative;
+    top:6vh;
+    height:50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.abbrev{
+    position: absolute;
+    left:3vw;
+    width: 20vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: .1rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.abbrevdata{
+    position: absolute;
+    left:18vw;
+    width: 20vw;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+#button-1{
+    position: absolute;
+    left: 18vw;
+    top: 53vh;
+    height: 44px;
+    width: 152px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgba(29, 9, 212, 0.6);
+    font-family:"Gill Sans", sans-serif;
+    color: rgb(164, 163, 163);
+    font-size: .87rem;
+    cursor: pointer;
+}
+
+#button-1:hover{
+    
+    font-weight: 550;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: rgb(29, 9, 212, 0.87);
+    
+}
+
+#output{
+    border-left:1px solid rgb(201, 199, 199);
+    width: 35vw;
+    height: 100vh;
+}
+
+#output-details{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 99%;
+}
+
+p:nth-child(2n){
+    background-color:rgb(20, 33, 69);
+    border-radius: 0.3rem;
+}
+
+p{
+    position: relative;
+    font-size: 1.2rem;
+    padding: 2%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .1px;
+    padding-left: 0.5cm;
+    margin: 2px 2px;
+}
+
+b{
+    
+    color: rgba(255, 255, 255, 0.874);
+    font-weight: normal;
+    border-radius: .09rem;
+}
